@@ -59,7 +59,7 @@ cffi==1.16.0
     # via
     #   cryptography
     #   pynacl
-channels==4.1.0
+channels[daphne]==4.1.0
     # via mercury
 charset-normalizer==3.3.2
     # via requests
@@ -114,7 +114,7 @@ deprecated==1.2.14
     # via pygithub
 diskcache==5.6.3
     # via -r requirements.in
-dj-rest-auth==3.0.0
+dj-rest-auth[with-social]==3.0.0
     # via mercury
 django==4.2.7
     # via
@@ -398,7 +398,7 @@ pygments==2.18.0
     #   ipython
     #   nbconvert
     #   rich
-pyjwt==2.8.0
+pyjwt[crypto]==2.8.0
     # via
     #   django-allauth
     #   pygithub
@@ -457,14 +457,6 @@ s3transfer==0.6.2
     # via boto3
 service-identity==24.1.0
     # via twisted
-setuptools==69.5.1
-    # via
-    #   autobahn
-    #   marisa-trie
-    #   spacy
-    #   thinc
-    #   zope-event
-    #   zope-interface
 shortuuid==1.0.13
     # via django-drf-filepond
 six==1.16.0
@@ -488,7 +480,7 @@ spacy==3.7.4
     # via
     #   -r requirements.in
     #   spacy-conll
-spacy-conll @ git+ssh://git@github.com/rominf/spacy_conll.git@6a4a2157079c5e45ec1067518abe99be3498f552
+spacy-conll @ git+ssh://git@github.com/rominf/spacy_conll.git@6a4a215
     # via -r requirements.in
 spacy-legacy==3.0.12
     # via spacy
@@ -539,7 +531,7 @@ traitlets==5.14.3
     #   nbclient
     #   nbconvert
     #   nbformat
-twisted==24.3.0
+twisted[tls]==24.3.0
     # via daphne
 txaio==23.1.1
     # via autobahn
@@ -560,7 +552,7 @@ tzdata==2024.1
     # via
     #   celery
     #   pandas
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   botocore
     #   pygithub
