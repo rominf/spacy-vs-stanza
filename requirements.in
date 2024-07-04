@@ -13,6 +13,6 @@ PyGithub==2.3.0
 pytest==8.2.0
 rich==13.7.1
 spacy==3.7.4
-spacy-conll @ git+ssh://git@github.com/rominf/spacy_conll.git@6a4a215
+spacy-conll==4.0.1
 stanza==1.8.2
 typer==0.9.4
