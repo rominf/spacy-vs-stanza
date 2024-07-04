@@ -488,7 +488,7 @@ spacy==3.7.4
     # via
     #   -r requirements.in
     #   spacy-conll
-spacy-conll @ git+ssh://git@github.com/rominf/spacy_conll.git@6a4a2157079c5e45ec1067518abe99be3498f552
+spacy-conll==4.0.1
     # via -r requirements.in
 spacy-legacy==3.0.12
     # via spacy
